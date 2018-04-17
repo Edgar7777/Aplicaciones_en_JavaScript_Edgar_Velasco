@@ -73,5 +73,15 @@ var arreglo = [1, 2, 3, "edgar", '20', undefined, 1, 0, -1, sumardosNumeros(1, 2
 console.log(arreglo);
 
 
+////////////////////////////for
+
+for (var aux = 0; aux<10; aux++){
+
+    console.log('Aux: ', aux);
+}
+
+
+
+
 
 
