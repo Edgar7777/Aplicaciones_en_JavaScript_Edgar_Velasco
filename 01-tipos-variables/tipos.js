@@ -27,3 +27,36 @@ if (nombre === edad) {
     console.log("falso")
 }
 
+
+
+/////////////////////json}
+
+var usuario = {
+
+    "nombre" : "Edgar",//se utiliza la coma para separar elementos del arreglo
+    apellido : "Edgar",//en js es una buena practica no utilizar comillas dobles pero se pueden utilizar como buena pactica con comillas simples
+    cedula: '1719891903'
+};
+
+console.log("usuario: " , usuario);
+
+function sumardosNumeros(numeroUno,numeroDos){
+    return numeroUno+numeroDos;
+}
+
+console.log(sumardosNumeros(1,2));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
