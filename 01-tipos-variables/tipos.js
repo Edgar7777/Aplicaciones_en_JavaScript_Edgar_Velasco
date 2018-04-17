@@ -35,7 +35,11 @@ var usuario = {
 
     "nombre" : "Edgar",//se utiliza la coma para separar elementos del arreglo
     apellido : "Edgar",//en js es una buena practica no utilizar comillas dobles pero se pueden utilizar como buena pactica con comillas simples
-    cedula: '1719891903'
+    cedula: '1719891903',
+
+    imprimirEnConsola : function (){
+        console.log(this.nombre +" "+ this.apellido+' '+this.cedula)
+    }
 };
 
 console.log("usuario: " , usuario);
@@ -49,10 +53,20 @@ console.log(sumardosNumeros(1,2));
 
 
 
+var sumarDosNumeroVersionDos = function amigo(numeroUno,numeroDos){
+    return numeroUno+numeroDos;
+};
+
+
+console.log(sumarDosNumeroVersionDos(1,3))
 
 
 
 
+console.log(usuario.cedula);
+console.log(usuario.nombre);
+console.log(usuario.apellido)
+console.log(usuario.imprimirEnConsola());
 
 
 
