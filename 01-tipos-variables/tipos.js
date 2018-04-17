@@ -28,54 +28,49 @@ if (nombre === edad) {
 }
 
 
-
 /////////////////////json}
 
 //console.log(sumarDosNumeroVersionDos(12,13));//no vale da error
-console.log(sumardosNumeros(10,11))
+console.log(sumardosNumeros(10, 11))
 
 var usuario = {
 
-    "nombre" : "Edgar",//se utiliza la coma para separar elementos del arreglo
-    apellido : "Edgar",//en js es una buena practica no utilizar comillas dobles pero se pueden utilizar como buena pactica con comillas simples
+    "nombre": "Edgar",//se utiliza la coma para separar elementos del arreglo
+    apellido: "Edgar",//en js es una buena practica no utilizar comillas dobles pero se pueden utilizar como buena pactica con comillas simples
     cedula: '1719891903',
 
-    imprimirEnConsola : function (){
-        console.log(this.nombre +" "+ this.apellido+' '+this.cedula)
+    imprimirEnConsola: function () {
+        console.log(this.nombre + " " + this.apellido + ' ' + this.cedula)
     }
 };
 
-console.log("usuario: " , usuario);
+console.log("usuario: ", usuario);
 
-function sumardosNumeros(numeroUno,numeroDos){
-    return numeroUno+numeroDos;
+function sumardosNumeros(numeroUno, numeroDos) {
+    return numeroUno + numeroDos;
 }
 
-console.log(sumardosNumeros(1,2));
+console.log(sumardosNumeros(1, 2));
 
 
-
-
-var sumarDosNumeroVersionDos = function amigo(numeroUno,numeroDos){
-    return numeroUno+numeroDos;
+var sumarDosNumeroVersionDos = function amigo(numeroUno, numeroDos) {
+    return numeroUno + numeroDos;
 };
 
 
-console.log(sumarDosNumeroVersionDos(1,3))
-
-
+console.log(sumarDosNumeroVersionDos(1, 3))
 
 
 console.log(usuario.cedula);
 console.log(usuario.nombre);
 console.log(usuario.apellido);
-console.log(usuario.imprimirEnConsole());
+console.log(usuario.imprimirEnConsola());
 console.log(usuario.imprimirEnConsola);
 
 
+var arreglo = [1, 2, 3, "edgar", '20', undefined, 1, 0, -1, sumardosNumeros(1, 2)]
 
-
-
+console.log(arreglo);
 
 
 
