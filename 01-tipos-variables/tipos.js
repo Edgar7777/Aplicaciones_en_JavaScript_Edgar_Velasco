@@ -31,6 +31,9 @@ if (nombre === edad) {
 
 /////////////////////json}
 
+//console.log(sumarDosNumeroVersionDos(12,13));//no vale da error
+console.log(sumardosNumeros(10,11))
+
 var usuario = {
 
     "nombre" : "Edgar",//se utiliza la coma para separar elementos del arreglo
@@ -65,8 +68,11 @@ console.log(sumarDosNumeroVersionDos(1,3))
 
 console.log(usuario.cedula);
 console.log(usuario.nombre);
-console.log(usuario.apellido)
-console.log(usuario.imprimirEnConsola());
+console.log(usuario.apellido);
+console.log(usuario.imprimirEnConsole());
+console.log(usuario.imprimirEnConsola);
+
+
 
 
 
