@@ -10,7 +10,7 @@
 
 //paso 1 creamos la función que se va a llamar validarNumeroDeStingsEnArreglo, que va a recibir como parámetro un arreglo
 
-var arreglo = ["hola",1];
+var arreglo = [1,"hola"];
 
 function isString(parametro) {
     var i = 0;
@@ -38,5 +38,4 @@ function validarNumeroDeStingsEnArreglo(arreglo) {
     //}
 }
 
-console.log(isString(arreglo));
-console.log(validarNumeroDeStingsEnArreglo(arreglo));
+console.log('numero de strings del arreglo: ',validarNumeroDeStingsEnArreglo(arreglo));
