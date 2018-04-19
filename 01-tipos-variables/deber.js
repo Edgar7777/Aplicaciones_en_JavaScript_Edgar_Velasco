@@ -10,16 +10,33 @@
 
 //paso 1 creamos la función que se va a llamar validarNumeroDeStingsEnArreglo, que va a recibir como parámetro un arreglo
 
+var arreglo = ["hola",1];
 
-function validarNumeroDeStingsEnArreglo(arreglo = ["hola",2]) {
-
-    for (var i = 0; i < arreglo.length; i++) {
-        if (typeof arreglo[i] !== "object" && typeof arreglo[i] === "string") {
-            return arreglo.length;
-        } else {
-            return 0;
-        }
+function isString(parametro) {
+    var i = 0;
+    if (typeof parametro[i] === 'string') {
+        return true;
+    } else {
+        return false;
     }
+    i++;
 }
 
-console.log(validarNumeroDeStingsEnArreglo());
+function validarNumeroDeStingsEnArreglo(arreglo) {
+
+    //for (var i = 0; i < arreglo.length; i++) {
+    var i = 0;
+
+    while (typeof arreglo[i] === 'string') {
+        if (isString(arreglo[i]) !== 'true') {
+            return arreglo.length;
+        } else {
+            console.log("no es un arreglo permitido")
+        }
+        i++;
+    }
+    //}
+}
+
+console.log(isString(arreglo));
+console.log(validarNumeroDeStingsEnArreglo(arreglo));
