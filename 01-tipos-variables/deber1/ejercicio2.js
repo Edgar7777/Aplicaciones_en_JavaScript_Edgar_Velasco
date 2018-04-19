@@ -21,5 +21,29 @@ Es decir, en el ejemplo anterior el formato imprimiría lo siguiente para los ge
 - "Generador #2 está apagado."
 * */
 
-function
+function generadorMenorPotencia(){
+    var i=1;
+    while(i<=4){
+        if(=0){
+            console.log("generador #"+i+" está prendido, añadiendo 62 MW para un total de 62 MW" );
+            i++;
+        }else{
+
+        }
+
+    }
+}
+
+function generadorMayorPotencia(){
+
+   for(var i=5; i<20; i++){
+        console.log("generador #"+i+" está prendido, añadiendo 62 MW para un total de 124 MW" );
+    }
+}
+
+console.log(generadorMenorPotencia());
+console.log(generadorMayorPotencia());
+
+
+
 
