@@ -28,19 +28,16 @@ class Usuario {
                 cedula: String) {
         this.mNombre = nombre;
         this.mEdad = edad;
-        this.mCedula = cedula;
-    }
-
-    let
-    usuario: Usuario = new Usuario("Edgar", 17, '132848734638');
+        this.mCedula = cedula;}
 
     public imprimirEnConsola() {
 
-        //Template Strings Tilde Invertida
-        console.log(`El usuario se llama ${this.mNombre}
+            //Template Strings Tilde Invertida
+            console.log(`El usuario se llama ${this.mNombre}
         la edad del usuario es ${this.mEdad}
         la cedula del usuario es ${this.mCedula}`);
-    }
-
-    
+        }
 }
+let
+    usuario: Usuario = new Usuario("Edgar", 17, '132848734638');
+console.log(usuario);

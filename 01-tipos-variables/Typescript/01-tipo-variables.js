@@ -11,7 +11,6 @@ var casado = false;
 //let mascotas: object = {}
 var Usuario = /** @class */ (function () {
     function Usuario(nombre, edad, cedula) {
-        this.usuario = new Usuario("Edgar", 17, '132848734638');
         this.mNombre = nombre;
         this.mEdad = edad;
         this.mCedula = cedula;
@@ -22,3 +21,5 @@ var Usuario = /** @class */ (function () {
     };
     return Usuario;
 }());
+var usuario = new Usuario("Edgar", 17, '132848734638');
+console.log(usuario);
