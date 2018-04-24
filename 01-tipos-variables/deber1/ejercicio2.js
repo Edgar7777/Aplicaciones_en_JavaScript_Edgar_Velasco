@@ -24,20 +24,26 @@ Es decir, en el ejemplo anterior el formato imprimiría lo siguiente para los ge
 function generadorMenorPotencia(){
     var i=1;
     while(i<=4){
-        if(=0){
+        if(i%2===0){
             console.log("generador #"+i+" está prendido, añadiendo 62 MW para un total de 62 MW" );
             i++;
         }else{
-
+            console.log("generador #"+i+" está apagado, añadiendo 62 MW para un total de 62 MW" );
+            i++;
         }
 
     }
 }
 
 function generadorMayorPotencia(){
+    var i;
+   for(i=5 ; i<20; i++){
+       if(i%2===0){
+           console.log("generador #"+i+" está prendido, añadiendo 62 MW para un total de 124 MW" );
 
-   for(var i=5; i<20; i++){
-        console.log("generador #"+i+" está prendido, añadiendo 62 MW para un total de 124 MW" );
+       }else{
+           console.log("generador #"+i+" está apagado, añadiendo 62 MW para un total de 124 MW" );
+       }
     }
 }
 
