@@ -31,7 +31,6 @@ function generadorMenorPotencia(){
             console.log("generador #"+i+" está apagado, añadiendo 62 MW para un total de 62 MW" );
             i++;
         }
-
     }
 }
 
@@ -47,8 +46,36 @@ function generadorMayorPotencia(){
     }
 }
 
+function todosLosGeneradoresEncendidos(){
+    var i=1;
+    while(i<20){
+        if(i<5){
+            console.log("generador #"+i+" está prendido, añadiendo 62 MW para un total de 62 MW" );
+            i++;
+        }else{
+            console.log("generador #"+i+" está prendido, añadiendo 62 MW para un total de 62 MW" );
+            i++;
+        }
+    }
+}
+
+function todosLosGeneradoresApagados(){
+    var i=1;
+    while(i<20){
+        if(i<5){
+            console.log("generador #"+i+" está apagado, añadiendo 62 MW para un total de 62 MW" );
+            i++;
+        }else{
+            console.log("generador #"+i+" está apagado, añadiendo 62 MW para un total de 62 MW" );
+            i++;
+        }
+    }
+}
+
 console.log(generadorMenorPotencia());
 console.log(generadorMayorPotencia());
+console.log(todosLosGeneradoresEncendidos());
+console.log(todosLosGeneradoresApagados());
 
 
 
